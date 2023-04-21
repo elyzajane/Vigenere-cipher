@@ -14,5 +14,7 @@ def vigenere_cipher(plaintext, keyword):
         ciphertext += cipher_character
     return ciphertext
 #ask user to input for plaintext and keyword
+plaintext = input("Enter plaintext (all uppercase letters, no spaces): ")
+keyword = input("Enter keyword (all uppercase letters): ")
 #encrypt the plaintext using vigenere cipher
 #print the output
