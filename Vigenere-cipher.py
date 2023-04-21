@@ -19,3 +19,4 @@ keyword = input("Enter keyword (all uppercase letters): ")
 #encrypt the plaintext using vigenere cipher
 ciphertext = vigenere_cipher(plaintext, keyword)
 #print the output
+print("Ciphertext: " + ciphertext)
