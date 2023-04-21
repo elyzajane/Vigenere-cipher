@@ -1,4 +1,4 @@
-Activity = "Assignment No. 2"
+Activity = "\033[95mAssignment No. 2"
 print(Activity)
 
 #Vigenere cipher activity
