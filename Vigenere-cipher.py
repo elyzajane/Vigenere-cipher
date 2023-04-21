@@ -1,3 +1,6 @@
+Activity = "Assignment No. 2"
+print(Activity)
+
 #Vigenere cipher activity
 #use def function to encrypt plaintext
 def vigenere_cipher(plaintext, keyword):
@@ -5,7 +8,7 @@ def vigenere_cipher(plaintext, keyword):
     keyword = keyword.upper()
     ciphertext = ""
     for i in range(len(plaintext)):
-        character = plaintext
+        character = plaintext[i]
         key_character = keyword[i % len(keyword)]
         character_value = ord(character) - ord('A')
         key_character_value = ord(key_character) - ord('A')
